@@ -18,14 +18,14 @@ We can easily run the whole with only a single command:
 
 * `docker-compose up -d`
 
-#### 5: Starting redis-publisher`
+#### 5: Starting kafka-consumer`
 
 ```shell
 ./kafka-consumer
 mvn spring-boot:run
 ```
 
-#### 5: Starting redis-subscriber-one`
+#### 5: Starting kafka-producer`
 
 ```shell
 ./kafka-producer
