@@ -1,0 +1,10 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: PRODUCER-SERVICE
+
+
+kafka:
+  bootstrapAddress: localhost:19092
